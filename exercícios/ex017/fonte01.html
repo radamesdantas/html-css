@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px (Usar), pt, pc
+            
+            Medidas Relativas
+            em (Usar), ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em ;
+            
+            /* lighter normal bold bolder */
+        }
+
+        h1 {
+            
+            /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family 
+            
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt sequi, debitis necessitatibus voluptatibus officiis illo aperiam earum. Doloremque dolores ipsa quo, repellat distinctio est, impedit natus, tenetur minus facilis sint? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque tempora dolores corrupti sint, illum aliquam pariatur, libero accusamus quidem sapiente nemo suscipit corporis iste odit mollitia ducimus minus, blanditiis non. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto vero cupiditate officiis corrupti non, porro fuga cumque minima aliquid laborum exercitationem nostrum, repellat nulla unde in sapiente, iure rem consectetur!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, natus. Delectus vero facilis nihil repellendus quam at est sunt hic, odio magnam culpa alias quia cumque vel sit. Nesciunt, nostrum.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quia nulla ea quibusdam nihil dolore optio nostrum esse ratione aut quasi minus voluptates, saepe repudiandae? Iure laboriosam pariatur unde nam.</p>
+</body>
+</html>
